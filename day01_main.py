@@ -19,7 +19,6 @@ def part_one(input_text):
                 numbers.append(0)
 
             total = total + int(numbers[0] + numbers[-1])
-            print(total)
 
     finally:
         return total
@@ -51,7 +50,6 @@ def part_two(input_text):
                 numbers.append(0)
 
             total = total + int(numbers[0] + numbers[-1])
-            print(total)
 
     finally:
         return total
